@@ -1,0 +1,27 @@
+#top-nav-bar{
+    padding:0 2rem;
+    background-color:black;
+    height: 9vh;
+    width: 100vw;
+    justify-content: space-between;
+    border-bottom: 1px solid #606060;
+    position: fixed;
+}
+
+.left{
+    color: white;
+    font-size:2rem;
+}
+.cente-elem, .cente-elem i{
+    font-weight: bold;
+    color: #606060;
+    width: 6rem;
+}
+
+.cente-elem:hover{
+    color: white;
+}
+
+.right{
+    color: white;
+}

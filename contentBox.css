@@ -1,0 +1,37 @@
+#content-box {
+    z-index: -1;
+    top: 9vh;
+    position: relative;
+   background-color: black;
+   color: white;
+   padding: 3rem;
+}
+
+.content-section{
+    
+    width:80vw;
+    /* border:1px white solid; */
+    height: 40vh;
+}
+.section-heading{
+    margin-bottom:1rem ;
+    font-size:2rem;     
+    justify-content: space-between;
+}
+.section-heading div i{
+    margin: 0 0.5rem;
+       border:1px #909090 solid;
+       width: 2.5rem;
+       height:2.5rem;
+       border-radius:2rem;
+}
+.section-heading div i:hover{
+    opacity: 0.7;
+}
+img{
+    height:20vh;
+}
+
+.song{
+     margin: 1.1rem;
+}
